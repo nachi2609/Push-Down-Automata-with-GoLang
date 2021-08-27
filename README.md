@@ -9,6 +9,10 @@ The automata program requires the following:
 The output of the program states if the provided string was accepted or rejected by the Push Down Automata. System also prints all the intermediate stages which were taken while processing each input token.
 
 **How to run the program?**\
-System is implemented using a Golang program that is run from the command line with the following command.\
-As sample we have also added two PDA’s .json 
+Automata System is implemented using a Golang program which can be run using following command in command prompt.
+Please make sure that we open command prompt in the folder of program.
+``` javascript
+go run client_pda.go pda.go collection_functions.go utils.go -- data/pda1_spec.txt < data/pda1_inp01.txt
+```
+Here we have data folder which contains json specification of PDA. As sample we have also added two PDA’s .json 
 
