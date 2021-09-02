@@ -14,5 +14,10 @@ Please make sure that we open command prompt in the folder of program.
 ``` javascript
 go run client_pda.go pda.go collection_functions.go utils.go -- data/pda1_spec.txt < data/pda1_inp01.txt
 ```
-Here we have data folder which contains json specification of PDA. As sample we have also added two PDA’s .json 
+Here we have data folder which contains json specification of PDA. 
+As sample we have also added two PDA’s .json 
 
+Along with all the .go files we have added two bash scripts.
+These scripts run the same command on the bash.
+
+We can observe bash output in the prompt.
